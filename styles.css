@@ -1,0 +1,62 @@
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+body {
+  background-image: url("./Assets/Savage_Album_Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  border: 5px solid white;
+  background: red;
+}
+
+h2 {
+  color: white;
+  border: 5px solid white;
+  background: red;
+}
+
+.container {
+  background-color: red;
+  border: 5px solid white;
+  color: white;
+  width: 700px;
+  max-width: 80%;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.btn-group {
+  color: black;
+  background-color: white;
+  border-color: blue;
+  cursor: pointer;
+  padding: 10px 24px;
+  display: grid;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  background-color: silver;
+}
+
+.hide {
+  display: none;
+}
