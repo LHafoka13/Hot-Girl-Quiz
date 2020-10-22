@@ -20,17 +20,21 @@
       </div>
       <div class="col-sm-9">
         <div class="container">
-            <div id="question-container" class="hide">
-              <div id="question-display">
+            <div id="question-container" class="qaDisplay">
+              <h2 id="questionDisplay"></h2>
+              <!-- <div id="question-display"> -->
                 <div id="answer-buttons" class="btn-group">
-                  <button class=btn>Answer 1</button>
-                  <button class=btn>Answer 2</button>
-                  <button class=btn>Answer 3</button>
-                  <button class=btn>Answer 4</button>
+                  <button id="ans1" class="btn">Answer 1</button>
+                  <button id="ans2" class="btn">Answer 2</button>
+                  <button id="ans3" class="btn">Answer 3</button>
+                  <button id="ans4" class="btn">Answer 4</button>
+                </div>
+                <div class="container">
+                  <h3 id="answerAlert">Answer</h3>
                 </div>
               </div>
+              <button id="start-btn">Start Quiz</button>
             </div>
-            <button id="start-btn">Start Quiz</button>
         </div>
       </div>
     </div>
@@ -39,6 +43,28 @@
     <div class="row">
       <div class="col-sm-3">
         <h2 id="score-keeper">Score: </h2>
+      </div>
+      <br><br>
+      <div id="storeScore" class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <h3>Quiz Completed!</h3> <br><br>
+            <h4 id="finalScore"></h4>
+            <form id="userStats">
+              <h3 id="storeName">Name: <input type="text" id="enterName"> </h3> <br><br>
+              <input type="button" onclick="submitStats()" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="high-score-list" class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <h3>High Score List</h3>
+            <br><br>
+            <h5 id="statDisplay"></h5>
+          </div>
+        </div>
       </div>
     </div>
   </div>
