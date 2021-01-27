@@ -22,6 +22,11 @@ Once you click submit, it will display your name and score on the High Scores Li
 
 ![7](https://user-images.githubusercontent.com/68487859/96841861-8abf8300-1409-11eb-8fc7-8a15b4ce55ef.png)
 
+<strong>Technologies Used</strong>
+<ul>
+  <li>Javascript</li>
+</ul>
+
 <strong>Challenges</strong>
 
 One of the challenges I ran into while building this was displaying the stored input i.e name/score. As you can see it displays as an object which doesn't look the greatest. 
